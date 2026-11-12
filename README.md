@@ -12,6 +12,7 @@ Python 练习代码仓库。用于记录日常 Python 语法与功能的小练�
 ```bash
 python practice1.py
 python practice_list.py
+python practice_loop.py
 ```
 
 ## 练习列表
@@ -54,12 +55,35 @@ $ python practice_list.py
 - `remove` / `pop` / `del` 的删除方式
 - 切片的读取、步长与原地替换
 
+### practice_loop.py — 循环与条件判断
+
+演示 `for` 循环、`break`、累加求和、奇偶判断以及 `if/elif/else` 成绩等级判断。
+
+```bash
+$ python practice_loop.py
+187   # 200 以内能被 17 整除的最大整数
+5050  # 1-100 求和
+1 是奇数
+2 是偶数
+...
+请输入你的成绩：85
+良好
+```
+
+实现要点：
+
+- `range()` 生成数字序列
+- `break` 提前退出循环
+- `for` 累加求和
+- `if/elif/else` 分支判断与比较运算符
+
 ## 目录结构
 
 ```
 PyStudy/
 ├── practice1.py        # 十进制转二进制
 ├── practice_list.py    # 列表操作
+├── practice_loop.py    # 循环与条件判断
 ├── .gitignore
 ├── LICENSE
 └── README.md
